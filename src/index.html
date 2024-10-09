@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <meta name="viewport" content="width initial-scale=1.0">
     <title>Kayfa's Zone</title>
+    <link rel="icon" href="/imgProducts/LOGO.jpg">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -12,6 +13,7 @@
         <button style="align-content: center;">
             <img class="size-6" src="https://img.icons8.com/ios-filled/50/FFFFFF/left2.png" alt="left2"/>
         </button>
+        <img width="60" src="/imgProducts/LOGO.jpg" alt="">
         
         <div class="">
             <p style="color: white;">Contact Us</p>
@@ -56,7 +58,9 @@
         </div>
     </div>
     <div>
-        <button type="submit" class="flex-none rounded-md bg-stone-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Login</button>
+        <a href="login.html">
+            <button type="submit" class="flex-none rounded-md bg-stone-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-stone-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Login</button>
+        </a>
     </div>
 
 </header>
@@ -75,16 +79,93 @@
 
     <hr class="bg-stone-800" style="width: 100%; height: 20px; border: none;">
 
-    <section class="flex justify-between">
-        <img style="margin: 17px; border-radius: 30px;" width="200px" src="/imgProducts/Mic.jpeg" alt="">
-        <img style="margin: 17px; border-radius: 30px;" width="200px" src="/imgProducts/Sony-PlayStation-Pro-5.webp" alt="">
-        <img style="margin: 17px; border-radius: 30px;" width="200px" src="/imgProducts/Pc set.jpeg" alt="">
-        <img style="margin: 17px; border-radius: 30px;" width="200px" src="/imgProducts/Xbox.webp" alt="">
+    <section class="flex justify-around">
+        <a href="productoSeleccionado1.html">
+            <img style="margin: 17px; border-radius: 30px;" width="200px" src="/imgProducts/Mic.jpeg" alt="">
+        </a>
+        <a href="productoSeleccionado2.html">
+            <img style="margin: 17px; border-radius: 30px;" width="290px" src="/imgProducts/Sony-PlayStation-Pro-5.webp" alt="">
+        </a>
+        <a href="productoSeleccionado3.html">
+            <img style="margin: 17px; border-radius: 30px;" width="200px" src="/imgProducts/Pc set.jpeg" alt="">
+        </a>
+        <a href="productoSeleccionado4.html">
+            <img style="margin: 17px; border-radius: 30px;" width="270px" src="/imgProducts/Xbox.webp" alt="">
+        </a>
     </section>
 
     <footer class="bg-stone-800">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iusto ducimus in perferendis commodi corporis eius explicabo repellat cumque, qui quas tempora, asperiores at eaque, animi voluptatibus excepturi unde eum?</p>
+        <footer class="bg-stone-900 text-gray-400 py-8">
+            <div class="container mx-auto flex justify-between">
+            <!-- Left Section -->
+            <div class="flex flex-col">
+                <div class="flex items-center space-x-2 mb-4">
+                <!-- Logo Icon -->
+                <span class="text-gray-400 text-2xl font-bold">~</span>
+                </div>
+                <p class="mb-4">Making the world a better place through constructing elegant hierarchies.</p>
+                <!-- Social Media Icons -->
+                <div class="flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-xing"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        
+            <!-- Middle Sections -->
+            <div class="grid grid-cols-4 gap-8">
+                <div>
+                <h4 class="text-white font-semibold mb-4">Solutions</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white">Marketing</a></li>
+                    <li><a href="#" class="hover:text-white">Analytics</a></li>
+                    <li><a href="#" class="hover:text-white">Commerce</a></li>
+                    <li><a href="#" class="hover:text-white">Insights</a></li>
+                </ul>
+                </div>
+                <div>
+                <h4 class="text-white font-semibold mb-4">Support</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white">Pricing</a></li>
+                    <li><a href="#" class="hover:text-white">Documentation</a></li>
+                    <li><a href="#" class="hover:text-white">Guides</a></li>
+                    <li><a href="#" class="hover:text-white">API Status</a></li>
+                </ul>
+                </div>
+                <div>
+                <h4 class="text-white font-semibold mb-4">Company</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white">About</a></li>
+                    <li><a href="#" class="hover:text-white">Blog</a></li>
+                    <li><a href="#" class="hover:text-white">Jobs</a></li>
+                    <li><a href="#" class="hover:text-white">Press</a></li>
+                    <li><a href="#" class="hover:text-white">Partners</a></li>
+                </ul>
+                </div>
+                <div>
+                <h4 class="text-white font-semibold mb-4">Legal</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white">Claim</a></li>
+                    <li><a href="#" class="hover:text-white">Privacy</a></li>
+                    <li><a href="#" class="hover:text-white">Terms</a></li>
+                </ul>
+                </div>
+            </div>
+            </div>
+        
+            <div class="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500">
+            © 2024 Kayfa's store, Inc. All rights reserved.
+            </div>
+        </footer>
+        
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        
     </footer>
+
+    
 
     
     
