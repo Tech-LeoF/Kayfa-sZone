@@ -120,11 +120,9 @@
 </div>
 
 <script>
-    // JavaScript para validar los campos antes de mostrar la alerta
     document.getElementById('paymentForm').addEventListener("click", function(event) {
-        event.preventDefault(); // Evitar que el formulario se envíe de forma predeterminada
+        event.preventDefault();
         
-        // Obtener valores de los campos
         var email = document.getElementById('email').value;
         var nameOnCard = document.getElementById('nameOnCard').value;
         var cardNumber = document.getElementById('cardNumber').value;
@@ -135,11 +133,9 @@
         var state = document.getElementById('state').value;
         var postalCode = document.getElementById('postalCode').value;
     
-        // Validar que todos los campos estén llenos
         if (email === "" || nameOnCard === "" || cardNumber === "" || expirationDate === "" || cvc === "" || address === "" || city === "" || state === "" || postalCode === "") {
             alert('Please complete all fields.');
         } else {
-            // Si todos los campos están completos, mostrar alerta de pago procesado
             alert('successful transaction');
         }
     });
